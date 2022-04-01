@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addtocart</title>
+     <link rel="stylesheet" href="./Styles/navbar.css"/> 
+     <link rel="stylesheet" href="./Styles/offer.css"/> 
+     <link rel="stylesheet" href="./Styles/addtocart.css"/> 
+     <link rel="stylesheet" href="./Styles/footer.css"/> 
+     <link rel="stylesheet" href="./Styles/footerin.css"/> 
+   
+     <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+   
+  
+  </head>
+
+    <body>
+
+        <!-- <----------NAVBAR START------------> 
+    <div id="navbar">
+        <!-- <---------- UPPERPART OF NAVBAR START------------> 
+    <div id="upper_nav">
+        <div id="logo">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt=""/> 
+        </div>
+          
+        
+        <div id="pinCode">
+         <select>
+             <option>Select Pincode
+                 <span style="background-color:#8897a2"><i class="fa-solid fa-caret-down"></i></span>
+             </option>
+         </select>
+        </div>
+        
+        <div id="searchBar">
+             <input  type="text" placeholder="Search Medicines/Healthcare Products @18% off"
+            class="Search"
+            id="innerbar"/>
+             <div class="iconse">
+              <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+           </div>
+
+        </div>
+
+    </div>
+   
+       <!-- LOWER NAVBAR START -->
+       <div id="lowerNav">
+        <div class="leftnav">
+            <div class="let">
+                <a href="ordermedicines.html">Order Medicines</a> 
+                </div>
+            <div class="let">
+                <a href="hcareProduct.html">Healthcare Products</a> 
+            </div>
+            <div class="let">
+                <a href="diagnose.html">Lab Tests</a>
+            </div>
+            <div class="let">RTPCR</div> 
+        </div>
+            
+        <div class="rightnav">
+            <div class="symbol1">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""/>
+                <h4><a href="offer.html">Offers</a></h4>
+            </div>
+            <div class="symbol1">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""/>
+                <h4><a href="login.html">User</a></h4>
+            </div>
+            <div class="symbol1">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""/>
+                <h4><a href="cart.html">Cart</a></h4>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<select id="sortNames" onchange="handleNameSort()">
+  <option value="">Sort By Names</option>
+  <option value="ascending">Ascending</option>
+  <option value="descending">Descending</option>
+ </select>
+
+<select id="sortPrice" onchange="handlePriceSort()">
+  <option value="">Sort By Salary</option>
+  <option value="htl">High to Low</option>
+  <option value="lth">Low to High</option>
+</select>
+
+    <div id="product">
+    </div>
+      
+    <!-- footer -->
+    <div>
+        <div id="bot1">
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>1 Lakh+ Products</h4>
+            <p>
+              We maintain strict quality controls on all our partner retailers, so
+              that you always get standard quality products.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>Secure Payment</h4>
+            <p>100% secure and trusted payment protection</p>
+          </div>
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>Easy Return</h4>
+            <p>
+              We have a new and dynamic return window policy for medicines and
+              healthcare items. Refer FAQs section for more details.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div id="mob">
+          <div class="mobimg">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg"
+              alt="mobile App"
+            />
+          </div>
+          <div class="app">
+            <div id="txt">Download the App for Free</div>
+            <div class="logflx">
+              <div class="log">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/3380aedc.png"
+                  alt="Google Play"
+                />
+                <p>Google Play</p>
+              </div>
+              <div class="log">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/9bf5c576.png"
+                  alt="Apple Store"
+                />
+                <p>Apple Store</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- FOOTER SECTION STARTS -->
+  <div id="footer"> 
+      <div class="footer-sec">
+          <div class="f1">
+               <h3>Company</h3>
+               <p>About Us</p>
+               <p>Carriers</p>
+               <p>Blog</p>
+               <p>Partner with PharmEasy</p>
+               <p>Sell at PharmEasy</p>
+    
+               <h3 style="padding-top:6%">Our Services</h3>
+               <p>Order Medicine</p>
+               <p>Healthcare Products</p>
+               <p>Lab Tests</p>
+           </div>
+           <div class="f1">
+               <h3>Featured Categories</h3>
+               <p>Covid Essentials</p>
+               <p>Healthcare Devices</p>
+               <p>Health Food and Drinks</p>
+               <p>Personal Care</p>
+               <p>Ayurvedic Care</p>
+               <p>Mother and Baby Care</p>
+               <p>Accessories And Wearables</p>
+               <p>Skin Care</p>
+               <p>Diabetic Care</p>
+               <p>Health Condition</p>
+               <p>Sexual Wellness</p>
+               <p>Home Care</p>
+               <p>Fitness & Supplements</p>
+               <p>Elderly Care</p>
+               <p>Surgicals and Dressings</p>
+               <p>Pet Care</p>
+          </div>
+    
+          <div class="f1">
+               <h3>Need Help</h3>
+               <p>Browse All Medicines</p>
+               <p>Browse All Molecules</p>
+               <p>Browse All Cities & Areas</p>
+               <p>FAQs</p>
+               
+               <h3 style="padding-top:6%">Policy Info</h3>
+               <p>Editorial Policy</p>
+               <p>Privacy Policy</p>
+               <p>Vulnerability Disclosure Policy</p>
+               <p>Terms and Conditions</p>
+               <p>Customer Support Policy</p>
+               <p>Return Policy</p>
+        </div>
+          
+        <div class="f1">
+            <h3>FOLLOW US</h3>
+            <div id="logo-follow">
+              <div class="logo1"><i class="fa-brands fa-instagram-square fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-facebook fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-youtube fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-twitter-square fa-3x"></i></div>
+            </div>
+        </div>
+    
+      </div>
+    </div>
+    <!-- end of footer section -->
+    
+    <!-- Payment Partner section -->
+    <div id="partners">
+    <h2>Our Payment Partners</h2>
+    <div class="logo-social">
+        <div class="uptologo">
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt=""/>
+            </div>
+        </div>
+        <div class="aflogo">
+            <p>© 2022 PharmEasy. All Rights Reserved</p>
+        </div>
+    </div>
+    </div>
+      
+   </body>
+   </html>
+
+   <script src="./Script/data.js"></script>
+   <script src="./Script/addtocart.js"></script>
+  

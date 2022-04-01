@@ -1,0 +1,138 @@
+*{
+    font-family:"Open Sans", sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    width: 100%;
+    height: 160px;
+    background: #10847e;
+    margin: auto;
+    overflow: hidden;
+    position: sticky;
+    top:0;
+  
+    }
+    #upper_nav{
+       width:80%;
+       height:65px;
+       display:flex;
+    }
+    #logo{
+       height:60px;
+       width:200px;
+       margin: 2% 6% 0 1%;
+    }
+    #logo img{
+    height:100%;
+    width:100%;
+    
+    }
+    #pinCode{
+       width:210px;
+       margin-top: 1%;
+    }
+    #pinCode>select{
+      color:#10847e;
+      border-top-left-radius:  8px;
+      border-bottom-left-radius: 8px;
+      line-height:20px;
+      width:100%;
+      height:100%;
+      font-size: 20px;
+      font-weight: 600;
+      font-family: "Open Sans", sans-serif;
+      padding-right: 1%;
+    }
+    #searchBar{
+      width:68%; 
+      display: flex;
+      margin-top: 1%;
+    }
+   
+    #searchBar>#innerbar{
+      width:100%;
+      height: 100%;
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    #searchBar>.iconse{
+      height:97%;
+      width:60px;
+      background-color: white;
+      color: #9ea1a1;
+      text-align: center;
+      padding-top:1.5%;
+      margin-top: 1px;
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+    }
+    #lowerNav{
+      display: flex;
+     
+      height:50px;
+      width:83%;
+      margin-left: 16.5%;
+      margin-top:1%;
+    }
+    #lowerNav>.leftnav{
+      display: flex;
+      height:50px;
+      width:90%;
+     
+    }
+    #lowerNav>.leftnav>.let{
+     
+      color:white;
+      margin: auto;
+      height:100%;
+      font-size: 22px;
+      font-weight:500;
+      justify-content: space-evenly;
+       margin-left: 1px;
+    }
+    .leftnav>.let a{
+      text-decoration: white;
+      color: inherit;
+    }
+    .rightnav{
+      height: 50px;
+      width:70%;
+      margin-left:30%;
+      margin-right: 2%;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .rightnav>.symbol1{
+     display:flex;
+     width:56%;
+     justify-content: space-around;
+     padding-right:8%;
+    }
+  
+    .rightnav>.symbol1 h4 {
+      color:white;
+      font-size: 22px;
+      margin-left:6px;
+      text-align: center;
+      margin: auto;
+      padding: auto;
+      
+    }
+    .symbol1 h4 a{
+      text-decoration: white;
+      color: inherit;
+    }
+
+    
+
+
+
+ 
+
+ 
+

@@ -1,0 +1,23 @@
+
+       #product {
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 20px;
+        margin-top: 50px;
+        margin-left: 15px;
+        box-sizing: border-box;
+        margin-bottom: 70px;
+      }
+     
+       #sortNames{
+        height:30px;
+       }
+
+       #sortPrice{
+        height:30px;
+       }
+      @media all and (min-width: 80px) and (max-width: 400px) {
+        #product {
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }

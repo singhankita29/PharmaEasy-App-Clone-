@@ -1,0 +1,96 @@
+#footer{
+    margin-top: 4%;
+    height:920px;
+    width:100%;
+    background-color: #f4f7fb;
+    
+  }
+  
+  .footer-sec{
+    height:850;
+    display: flex;
+  }
+  .footer-sec>.f1{
+    margin-top: 6%;
+    height:100%;
+    width:25%;
+  }
+  
+  .f1>h3{
+    color:#4F585E;
+    margin-left: 8%;
+    font-size: 24px;
+    font-weight:200;
+  
+  }
+  .f1>p{
+    height:30px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    color:#6b7277;
+    margin-left: 8%;
+    font-size: 20px;
+  
+  }
+  .f1>#logo-follow{
+    height:80px;
+    width:90%;
+    margin-left:8%;
+    
+    display:flex;
+  }
+  #logo-follow>.logo1{
+    color: #10847e;
+    height:100%;
+    width:25%;
+    
+  }
+  
+  #partners{
+    height:180px;
+    width:100%;
+    margin-top:2%;
+    
+  }
+  #partners>h2{
+    color:#4F585E;
+    margin-left:1%;
+    
+  }
+  #partners>.logo-social{
+    height:50%;
+    width:100%;
+    display: flex;
+   
+  }
+  .logo-social>.uptologo{
+    
+    height:100%;
+    width:70%;
+    margin-left: 1%;
+    display: flex;
+    padding-right: 1%;
+  }
+  .logo-social>.aflogo{
+   
+    height:100%;
+    width:30%;
+  }
+  .main-log{
+    width:100px;
+  }
+  .uptologo>.main-log img{
+    height:60px;
+    width:90px;
+    
+  }
+  
+  .aflogo>p{
+    height:30px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 24px;
+    color:#6b7277;
+    margin-left: 20%;
+    font-size: 22px;
+    
+  }

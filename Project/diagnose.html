@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/slider.css" />
+    <link rel="stylesheet" href="./styles/landingpage.css" />
+    <link rel="stylesheet" href="./styles/diagnose.css" />
+    <link rel="stylesheet" href="./styles/footerin.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <title> Diagnose Products</title>  
+</head>
+  <body>
+
+    <!-- <----------NAVBAR START------------> 
+    <div id="navbar">
+            <!-- <---------- UPPERPART OF NAVBAR START------------> 
+        <div id="upper_nav">
+            <div id="logo">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt=""/> 
+            </div>
+              
+            
+            <div id="pinCode">
+             <select>
+                 <option>Select Pincode
+                     <span style="background-color:#8897a2"><i class="fa-solid fa-caret-down"></i></span>
+                 </option>
+             </select>
+            </div>
+            
+            <div id="searchBar">
+                 <input  type="text" placeholder="Search Medicines/Healthcare Products @18% off"
+                class="Search"
+                id="innerbar"/>
+                 <div class="iconse">
+                  <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+               </div>
+    
+            </div>
+  
+        </div>
+       
+           <!-- LOWER NAVBAR START -->
+           <div id="lowerNav">
+            <div class="leftnav">
+                <div class="let">
+                    <a href="ordermedicines.html">Order Medicines</a> 
+                    </div>
+                <div class="let">
+                    <a href="hcareProduct.html">Healthcare Products</a> 
+                </div>
+                <div class="let">
+                    <a href="diagnose.html">Lab Tests</a>
+                </div>
+                <div class="let">RTPCR</div> 
+            </div>
+                
+            <div class="rightnav">
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""/>
+                    <h4><a href="offer.html">Offers</a></h4>
+                </div>
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""/>
+                    <h4><a href="login.html">User</a></h4>
+                </div>
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""/>
+                    <h4><a href="cart.html">Cart</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+<!-- slider html -->
+
+<div class="container">
+    <div id="slides">
+      <div class="slide">
+          <img src="https://cms-contents.pharmeasy.in/banner/33326badf63-CARE400_Dweb.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+      <div class="slide">
+       <img src="https://cms-contents.pharmeasy.in/banner/aff1e7e2a72-PHEA20Dweb.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+      <div class="slide">
+       <img src="https://cms-contents.pharmeasy.in/banner/a53e17dea11-diag_new.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+      <div class="slide">
+       <img src="https://cms-contents.pharmeasy.in/banner/e0c9b9d5481-Dweb.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+      <div class="slide">
+       <img src="https://cms-contents.pharmeasy.in/banner/d09ec56dcd3-DWEB.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+      <div class="slide">
+       <img src="https://cms-contents.pharmeasy.in/banner/85955054ec0-Surgicare_Dweb_1.jpg?dim=1440x0&dpr=1&q=100" alt=""/>
+      </div>
+    </div>
+    <div class="slide-controls">
+        <button id="prev-btn">
+           <i class="fa-solid fa-angle-left"></i>
+        </button>
+        <button id="next-btn">
+           <i class="fa-solid fa-angle-right"></i>
+        </button>
+    </div>
+
+   </div>
+
+
+<!-- slider part end -->
+
+
+       <!-- daigno head -->
+       <div class="whole">
+        <div class="upload">
+          <div class="pic">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/6b3d644c.svg" alt="" />
+            <p>All Test</p>
+          </div>
+          <div class="pic">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg" alt=""/>
+            <p>Health Packages</p>
+          </div>
+          <div class="pic">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/d4d62fbf.svg" alt=""/>
+            <p>Upload Prescription</p>
+          </div>
+          <div class="pic">
+            <img src="https://assets.pharmeasy.in/web-assets/dist/4ed59722.svg" alt=""/>
+            <p>Book On Call</p>
+          </div>
+        </div>
+        <div class="purple">
+          <img src="https://assets.pharmeasy.in/web-assets/dist/3864b471.svg" alt=""/>
+          <p>
+            Save flat 5% extra on medicines & enjoy FREE delivery with PLUS
+            membership
+          </p>
+        </div>
+      </div>
+      <!-- last -->
+      <div>
+        <h3 id="corhead">Certified Partner Labs</h3>
+        <div id="coromain">
+          <button id="leftbtn">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg"
+              alt="left"
+            />
+          </button>
+          <div class="corocont">
+            <ul class="corotrack">
+              <li class="slide current">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/48cc8a22cc6932698b86be1849acf628.png"
+                    alt="random"
+                  />
+                  <h3>PharmEasy Labs</h3>
+                  <h5>Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/512d954bb4083e469b2db18b5f905c2e"
+                    alt="random"
+                  />
+                  <h3>iGenetic Diagnostics</h3>
+                  <h5>NABL Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/b0f9a6acc803369eaa07cec8ec360eb2"
+                    alt="random"
+                  />
+                  <h3>Apple Diagnostics</h3>
+                  <h5>ISO Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/febe41e5d6153ebdbf8f7018bbdc95f6"
+                    alt="random"
+                  />
+                  <h3>Suburban Diagnostics</h3>
+                  <h5>CAP Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/33dd4c5c0ac83b5d8281c26355cd7a7e.JPG"
+                    alt="random"
+                  />
+                  <h3>General Diagnostic</h3>
+                  <h5>NABL CAP Certified</h5>
+                </div>
+              </li>
+              <li class="slide current">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/48cc8a22cc6932698b86be1849acf628.png"
+                    alt="random"
+                  />
+                  <h3>PharmEasy Labs</h3>
+                  <h5>Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/512d954bb4083e469b2db18b5f905c2e"
+                    alt="random"
+                  />
+                  <h3>iGenetic Diagnostics</h3>
+                  <h5>NABL Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/b0f9a6acc803369eaa07cec8ec360eb2"
+                    alt="random"
+                  />
+                  <h3>Apple Diagnostics</h3>
+                  <h5>ISO Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/febe41e5d6153ebdbf8f7018bbdc95f6"
+                    alt="random"
+                  />
+                  <h3>Suburban Diagnostics</h3>
+                  <h5>CAP Certified</h5>
+                </div>
+              </li>
+              <li class="slide">
+                <div class="inner">
+                  <img
+                    src="https://cdn01.pharmeasy.in/dam/diagnostics/mce/33dd4c5c0ac83b5d8281c26355cd7a7e.JPG"
+                    alt="random"
+                  />
+                  <h3>General Diagnostic</h3>
+                  <h5>NABL CAP Certified</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button id="rightbtn">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg"
+              alt="right"
+            />
+          </button>
+        </div>
+      </div>
+  
+      <!-- second carousel -->
+  
+      <div>
+        <h3 id="corhead1">Affordable Health Packages</h3>
+        <div id="coromain1">
+          <button id="leftbtn1">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg"
+              alt="left"
+            />
+          </button>
+          <div class="corocont1">
+            <ul class="corotrack1">
+              <li class="slide1 current1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Complete care-Total</h3>
+                  <h5>By iGenetic Diagnostics</h5>
+                  <h5>Includes 72 Tests</h5>
+                  <h3 class="last">
+                    ₹1,500
+                    <span>₹7,605</span>
+                    <span>save 80%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Essential Vitamin Package</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 2 Tests</h5>
+                  <h3 class="last">
+                    ₹799
+                    <span>₹2,050</span>
+                    <span>save 61%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Advanced Health Care</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 57 Tests</h5>
+                  <h3 class="last">
+                    ₹1,050
+                    <span>₹6,170</span>
+                    <span>save 83%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Arthritis Package</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 45 Tests</h5>
+                  <h3 class="last">
+                    ₹1,499
+                    <span>₹2,840</span>
+                    <span>save 49%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Full Body Check Up</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 54 Tests</h5>
+                  <h3 class="last">
+                    ₹799
+                    <span>₹3,570</span>
+                    <span>save 78%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1 current1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Complete care-Total</h3>
+                  <h5>By iGenetic Diagnostics</h5>
+                  <h5>Includes 72 Tests</h5>
+                  <h3 class="last">
+                    ₹1,500
+                    <span>₹7,605</span>
+                    <span>save 80%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Essential Vitamin Package</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 2 Tests</h5>
+                  <h3 class="last">
+                    ₹799
+                    <span>₹2,050</span>
+                    <span>save 61%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Advanced Health Care</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 57 Tests</h5>
+                  <h3 class="last">
+                    ₹1,050
+                    <span>₹6,170</span>
+                    <span>save 83%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Arthritis Package</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 45 Tests</h5>
+                  <h3 class="last">
+                    ₹1,499
+                    <span>₹2,840</span>
+                    <span>save 49%</span>
+                  </h3>
+                </div>
+              </li>
+              <li class="slide1">
+                <div class="inner1">
+                  <img
+                    src="https://assets.pharmeasy.in/web-assets/dist/dea295a0.svg"
+                    alt="random"
+                  />
+                  <h3>Full Body Check Up</h3>
+                  <h5>By General Diagnostics</h5>
+                  <h5>Includes 54 Tests</h5>
+                  <h3 class="last">
+                    ₹799
+                    <span>₹3,570</span>
+                    <span>save 78%</span>
+                  </h3>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <button id="rightbtn1">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/a9a45455.svg"
+              alt="right"
+            />
+          </button>
+        </div>
+      </div>
+      <div id="cust">
+        <h1>Happy Users</h1>
+        <div class="cusflex">
+          <div class="custcard">
+            <img
+              src="https://cdn01.pharmeasy.in/dam/diagnostics/review-images/29e6fcbc3236335e8333969ea018b6c0"
+              alt=""
+            />
+            <div class="custtext">
+              <h3>Sugandh Agarwal</h3>
+              <p>
+                "From slot booking to actual free blood home sample collection &
+                payment was a very smooth experience."
+              </p>
+            </div>
+          </div>
+          <div class="custcard">
+            <img
+              src="https://cdn01.pharmeasy.in/dam/diagnostics/review-images/378e384d5c9b3e0dad10d1faa1654fa1"
+              alt=""
+            />
+            <div class="custtext">
+              <h3>Sushila Khadsare</h3>
+              <p>
+                "I'd highly recommend this service for their sheer reason of
+                genuine reports/labs and time commitment."
+              </p>
+            </div>
+          </div>
+          <div class="custcard">
+            <img
+              src="https://cdn01.pharmeasy.in/dam/diagnostics/review-images/a416050e0b663c6ea9af36abd4b5d181"
+              alt=""
+            />
+            <div class="custtext">
+              <h3>Siddesh Roarane</h3>
+              <p>
+                "Booked a test from a reputed lab in Mumbai via Pharmeasy, prices
+                were very competetive & service is one the best i've encountered."
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="bel">
+        <div class="belcard">
+          <img
+            src="https://cdn01.pharmeasy.in/dam/diagnostics/usp-images/e916484d3a2336368ce2ecf1748437e2"
+            alt=""
+          />
+  
+          <h3>Affordable Pricing</h3>
+          <p>
+            Get the best prices for tests and packages by comparing across
+            multiple labs.
+          </p>
+        </div>
+        <div class="belcard">
+          <img
+            src="https://cdn01.pharmeasy.in/dam/diagnostics/usp-images/64664cb0cfd63f81bc200f3e1e0c755f"
+            alt=""
+          />
+  
+          <h3>Convenience</h3>
+          <p>Get the samples collected from the comfort of your home.</p>
+        </div>
+        <div class="belcard">
+          <img
+            src="https://cdn01.pharmeasy.in/dam/diagnostics/usp-images/55f90440a9873704a771d084cb65b909"
+            alt=""
+          />
+  
+          <h3>Accurate reports</h3>
+          <p>
+            Get the accurate and timely reports from our Certified partner
+            laboratories.
+          </p>
+        </div>
+      </div>
+
+   
+
+    <!-- footer -->
+    <div>
+      <div id="bot1">
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100" alt=""
+          />
+          <h4>1 Lakh+ Products</h4>
+          <p>
+            We maintain strict quality controls on all our partner retailers, so
+            that you always get standard quality products.
+          </p>
+        </div>
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" alt=""
+          />
+          <h4>Secure Payment</h4>
+          <p>100% secure and trusted payment protection</p>
+        </div>
+        <div>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" alt=""
+          />
+          <h4>Easy Return</h4>
+          <p>
+            We have a new and dynamic return window policy for medicines and
+            healthcare items. Refer FAQs section for more details.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div id="mob">
+        <div class="mobimg">
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg"
+            alt="mobile App"
+          />
+        </div>
+        <div class="app">
+          <div id="txt">Download the App for Free</div>
+          <div class="logflx">
+            <div class="log">
+              <img
+                src="https://assets.pharmeasy.in/web-assets/dist/3380aedc.png"
+                alt="Google Play"
+              />
+              <p>Google Play</p>
+            </div>
+            <div class="log">
+              <img
+                src="https://assets.pharmeasy.in/web-assets/dist/9bf5c576.png"
+                alt="Apple Store"
+              />
+              <p>Apple Store</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FOOTER SECTION STARTS -->
+<div id="footer"> 
+    <div class="footer-sec">
+        <div class="f1">
+             <h3>Company</h3>
+             <p>About Us</p>
+             <p>Carriers</p>
+             <p>Blog</p>
+             <p>Partner with PharmEasy</p>
+             <p>Sell at PharmEasy</p>
+  
+             <h3 style="padding-top:6%">Our Services</h3>
+             <p>Order Medicine</p>
+             <p>Healthcare Products</p>
+             <p>Lab Tests</p>
+         </div>
+         <div class="f1">
+             <h3>Featured Categories</h3>
+             <p>Covid Essentials</p>
+             <p>Healthcare Devices</p>
+             <p>Health Food and Drinks</p>
+             <p>Personal Care</p>
+             <p>Ayurvedic Care</p>
+             <p>Mother and Baby Care</p>
+             <p>Accessories And Wearables</p>
+             <p>Skin Care</p>
+             <p>Diabetic Care</p>
+             <p>Health Condition</p>
+             <p>Sexual Wellness</p>
+             <p>Home Care</p>
+             <p>Fitness & Supplements</p>
+             <p>Elderly Care</p>
+             <p>Surgicals and Dressings</p>
+             <p>Pet Care</p>
+        </div>
+  
+        <div class="f1">
+             <h3>Need Help</h3>
+             <p>Browse All Medicines</p>
+             <p>Browse All Molecules</p>
+             <p>Browse All Cities & Areas</p>
+             <p>FAQs</p>
+             
+             <h3 style="padding-top:6%">Policy Info</h3>
+             <p>Editorial Policy</p>
+             <p>Privacy Policy</p>
+             <p>Vulnerability Disclosure Policy</p>
+             <p>Terms and Conditions</p>
+             <p>Customer Support Policy</p>
+             <p>Return Policy</p>
+      </div>
+        
+      <div class="f1">
+          <h3>FOLLOW US</h3>
+          <div id="logo-follow">
+            <div class="logo1"><i class="fa-brands fa-instagram-square fa-3x"></i></div>
+            <div class="logo1"><i class="fa-brands fa-facebook fa-3x"></i></div>
+            <div class="logo1"><i class="fa-brands fa-youtube fa-3x"></i></div>
+            <div class="logo1"><i class="fa-brands fa-twitter-square fa-3x"></i></div>
+          </div>
+      </div>
+  
+    </div>
+  </div>
+  <!-- end of footer section -->
+  
+  <!-- Payment Partner section -->
+  <div id="partners">
+  <h2>Our Payment Partners</h2>
+  <div class="logo-social">
+      <div class="uptologo">
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt=""/>
+          </div>
+          <div class="main-log">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt=""/>
+          </div>
+      </div>
+      <div class="aflogo">
+          <p>© 2022 PharmEasy. All Rights Reserved</p>
+      </div>
+  </div>
+  </div>
+    
+</html>
+<script src="./Script/diagnose.js"></script>
+

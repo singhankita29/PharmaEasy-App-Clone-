@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Order Medicine
+    </title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous">
+  
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css"/>
+    <link rel="stylesheet" href="/path/to/flickity.css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+   
+    <link rel="stylesheet" href="./Styles/navbar.css"/>
+    <link rel="stylesheet" href="./Styles/landingpage.css" />
+    <link rel="stylesheet" href="./Styles/ordermedicines.css" />
+    <link rel="stylesheet" href="./Styles/footerin.css" />
+
+    <link rel="stylesheet" href="./Styles/footer.css" />
+  </head>
+
+  <body>
+   <!-- <----------NAVBAR START------------> 
+    <div id="navbar">
+            <!-- <---------- UPPERPART OF NAVBAR START------------> 
+        <div id="upper_nav">
+            <div id="logo">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt=""/> 
+            </div>
+              
+            
+            <div id="pinCode">
+             <select>
+                 <option>Select Pincode
+                     <span style="background-color:#8897a2"><i class="fa-solid fa-caret-down"></i></span>
+                 </option>
+             </select>
+            </div>
+            
+            <div id="searchBar">
+                 <input  type="text" placeholder="Search Medicines/Healthcare Products @18% off"
+                class="Search"
+                id="innerbar"/>
+                 <div class="iconse">
+                  <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+               </div>
+    
+            </div>
+  
+        </div>
+       
+           <!-- LOWER NAVBAR START -->
+           <div id="lowerNav">
+            <div class="leftnav">
+                <div class="let">
+                    <a href="ordermedicines.html">Order Medicines</a> 
+                    </div>
+                <div class="let">
+                    <a href="hcareProduct.html">Healthcare Products</a> 
+                </div>
+                <div class="let">
+                    <a href="diagnose.html">Lab Tests</a>
+                </div>
+                <div class="let">RTPCR</div> 
+            </div>
+                
+            <div class="rightnav">
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""/>
+                    <h4><a href="offer.html">Offers</a></h4>
+                </div>
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""/>
+                    <h4><a href="login.html">User</a></h4>
+                </div>
+                <div class="symbol1">
+                    <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""/>
+                    <h4><a href="cart.html">Cart</a></h4>
+                </div>
+            </div>
+
+        </div>
+    </div>   
+
+
+    <div class="top_bar">
+      <div class="top_fir">Home</div>
+       <div class="top_im">
+        <img
+          src="https://freepngimg.com/thumb/web_design/24713-2-right-arrow-transparent-background.png"
+          alt=""
+        />
+      </div>
+      <div class="top_sec">Order Medicine Online</div>
+    </div>
+
+    <div style="margin-left: 250px" class="medic">
+      <h1>Order Medicine Online</h1>
+    </div>
+ 
+    <!-- empty cart starts here -->
+    <div id="carterer">
+      <div class="cart_box">
+        <div class="cart_box1">
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/8bfde66a.svg"
+            alt=""
+          />
+          <p>Flat 15% off</p>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/adb9b646.svg"
+            alt=""
+          />
+          <p>1 Lakh+Products</p>
+          <img
+            src="https://assets.pharmeasy.in/web-assets/dist/9279f530.svg"
+            alt=""
+          />
+          <p>Easy Return</p>
+        </div>
+        <div class="cart_box2">
+          <p>Search for Medicines/Healthcare Products</p>
+        </div>
+        <div class="cart_box3">
+          <p>Select Pincode</p>
+          
+          <input type="text" placeholder="Search medicines/HealthCare products..."
+          class="Search"  id="search12345">
+          
+          <a class="search" href="#"><div>
+            <img src="https://www.pngkit.com/png/detail/14-140989_free-icons-png-instagram-search-icon-white.png" alt=""/>
+            </div></a>
+        </div>
+      </div>
+      <div class="cart_right">
+        <div class="first_class">
+          <div class="first_img">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/ef63c33a.svg"
+              alt=""
+            />
+          </div>
+          <div class="first_para1">Order via Prescriptions</div>
+          <div class="img_fir">
+            <img
+              src="https://freepngimg.com/thumb/web_design/24713-2-right-arrow-transparent-background.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div class="second_class">
+          <div class="first_img">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/8dfc9006.svg"
+              alt=""
+            />
+          </div>
+          <div class="first_para">Don’t have a Prescription?</div>
+          <div class="img_fir">
+            <img
+              src="https://freepngimg.com/thumb/web_design/24713-2-right-arrow-transparent-background.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- img slider -->
+    <div id="imagesbar">
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/0ad2d80a.png"
+        alt=""
+      />
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/6e630ccf.png"
+        alt=""
+      />
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/c9bd8df2.png"
+        alt=""
+      />
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/748e0da8.png"
+        alt=""
+      />
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/aada0d0d.png"
+        alt=""
+      />
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/091811c4.png"
+        alt=""
+      />
+    </div>
+    <!-- offer -->
+    <div class="offers">
+      <img
+        src="https://assets.pharmeasy.in/web-assets/dist/67890676.svg"
+        alt=""
+      />
+      <h2>Offers Just For You</h2>
+    </div>
+
+    <div
+      class="carousel car_1"
+      data-flickity='{ "groupCells": 4,"autoplay":true  }'
+    >
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-cell car_2">
+        <div class="offerslide sli_1">
+          <img
+            src="https://cms-contents.pharmeasy.in/offer/1cc6737ebd0-PELOGO.png?dim=60x0&dpr=1.25&q=100"
+            alt=""
+          />
+          <div class="pa_1">
+            <p>
+              Flat 20% off + 20% <br />Cashback on your 1st... <br />Code:
+              STAYHOME
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ref -->
+    <div class="Qu">
+      <h4>Get 3-Step Quality-Checked Medicines</h4>
+      <p>
+        PharmEasy is a one-stop-shop for all your healthcare needs. We have 1L+
+        products for you to choose from. Buy medicines online at affordable
+        prices from the comforts of your home in just a few clicks and get them
+        delivered at your doorstep. <br />
+
+        The entire process of shopping for medicines is hassle-free and
+        convenient. All you have to do is search for the products you need on
+        our website or app, add to cart and then proceed with the checkout
+        process. <br />
+
+        With our scheduled refill reminder, you don’t even need to keep track of
+        your refill dates. <br />
+
+        What’s more, we have great offers, with added discounts and massive
+        e-wallet cashbacks on purchasing medicines!
+      </p>
+    </div>
+
+    <!-- guide_line -->
+    <div>
+      <div></div>
+    </div>
+   
+      <!-- footer -->
+      <div>
+        <div id="bot1">
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/9ac2da37.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>1 Lakh+ Products</h4>
+            <p>
+              We maintain strict quality controls on all our partner retailers, so
+              that you always get standard quality products.
+            </p>
+          </div>
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/2f258fe0.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>Secure Payment</h4>
+            <p>100% secure and trusted payment protection</p>
+          </div>
+          <div>
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/256fe591.svg?dim=0x72&dpr=1.25&q=100" alt=""
+            />
+            <h4>Easy Return</h4>
+            <p>
+              We have a new and dynamic return window policy for medicines and
+              healthcare items. Refer FAQs section for more details.
+            </p>
+          </div>
+        </div>
+        <hr />
+        <div id="mob">
+          <div class="mobimg">
+            <img
+              src="https://assets.pharmeasy.in/web-assets/dist/34a16ae8.jpg"
+              alt="mobile App"
+            />
+          </div>
+          <div class="app">
+            <div id="txt">Download the App for Free</div>
+            <div class="logflx">
+              <div class="log">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/3380aedc.png"
+                  alt="Google Play"
+                />
+                <p>Google Play</p>
+              </div>
+              <div class="log">
+                <img
+                  src="https://assets.pharmeasy.in/web-assets/dist/9bf5c576.png"
+                  alt="Apple Store"
+                />
+                <p>Apple Store</p>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <!-- FOOTER SECTION STARTS -->
+  <div id="footer"> 
+      <div class="footer-sec">
+          <div class="f1">
+               <h3>Company</h3>
+               <p>About Us</p>
+               <p>Carriers</p>
+               <p>Blog</p>
+               <p>Partner with PharmEasy</p>
+               <p>Sell at PharmEasy</p>
+    
+               <h3 style="padding-top:6%">Our Services</h3>
+               <p>Order Medicine</p>
+               <p>Healthcare Products</p>
+               <p>Lab Tests</p>
+           </div>
+           <div class="f1">
+               <h3>Featured Categories</h3>
+               <p>Covid Essentials</p>
+               <p>Healthcare Devices</p>
+               <p>Health Food and Drinks</p>
+               <p>Personal Care</p>
+               <p>Ayurvedic Care</p>
+               <p>Mother and Baby Care</p>
+               <p>Accessories And Wearables</p>
+               <p>Skin Care</p>
+               <p>Diabetic Care</p>
+               <p>Health Condition</p>
+               <p>Sexual Wellness</p>
+               <p>Home Care</p>
+               <p>Fitness & Supplements</p>
+               <p>Elderly Care</p>
+               <p>Surgicals and Dressings</p>
+               <p>Pet Care</p>
+          </div>
+    
+          <div class="f1">
+               <h3>Need Help</h3>
+               <p>Browse All Medicines</p>
+               <p>Browse All Molecules</p>
+               <p>Browse All Cities & Areas</p>
+               <p>FAQs</p>
+               
+               <h3 style="padding-top:6%">Policy Info</h3>
+               <p>Editorial Policy</p>
+               <p>Privacy Policy</p>
+               <p>Vulnerability Disclosure Policy</p>
+               <p>Terms and Conditions</p>
+               <p>Customer Support Policy</p>
+               <p>Return Policy</p>
+        </div>
+          
+        <div class="f1">
+            <h3>FOLLOW US</h3>
+            <div id="logo-follow">
+              <div class="logo1"><i class="fa-brands fa-instagram-square fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-facebook fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-youtube fa-3x"></i></div>
+              <div class="logo1"><i class="fa-brands fa-twitter-square fa-3x"></i></div>
+            </div>
+        </div>
+    
+      </div>
+    </div>
+    <!-- end of footer section -->
+    
+    <!-- Payment Partner section -->
+    <div id="partners">
+    <h2>Our Payment Partners</h2>
+    <div class="logo-social">
+        <div class="uptologo">
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/af0c6812.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/0e010044.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/1066bb1f.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/3a1a533d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/fbea1701.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/4733a49d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/b278e536.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/0aca2077.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/44a51ca5.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/d058b00d.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/e9445364.svg" alt=""/>
+            </div>
+            <div class="main-log">
+                <img src="https://assets.pharmeasy.in/web-assets/dist/6e09c713.svg" alt=""/>
+            </div>
+        </div>
+        <div class="aflogo">
+            <p>© 2022 PharmEasy. All Rights Reserved</p>
+        </div>
+    </div>
+    </div>
+  
+     
+    <!-- drop out -->
+    <div class="srch_pop1">
+      <div class="sch_drop1" onclick="x4()">
+        <div class="sch_p12">
+          <p>Frequently Seached items</p>
+        </div>
+        <div class="srh_ps1">
+          <p><a href="addtocart.html">Ecosprin 75mg Strip of 14 Tablets</a></p>
+          <p><a href="addtocart.html">Shelcal 500mg Strip of 14 Tablets</a></p>
+          <p><a href="addtocart.html">Ecosprin 75mg Strip of 14 Tablets</a></p>
+          <p><a href="addtocart.html">Evion 400mg Strip of 10 Capsules</a></p>
+          <p><a href="addtocart.html">Pan 40mg 15's Tab</a></p>
+          <p><a href="addtocart.html">Shelcal 500mg Strip of 14 Tablets</a></p>
+          <p><a href="addtocart.html">Ecosprin 75mg Strip of 14 Tablets</a></p>
+          <p><a href="addtocart.html">Evion 400mg Strip of 10 Capsules</a></p>
+          <p><a href="addtocart.html">Pan 40mg 15's Tab</a></p>
+          <p><a href="addtocart.html">New Celin 500mg Tablets 25's</a></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      document
+        .getElementById("search12345")
+        .addEventListener("click", function () {
+          document.querySelector(".srch_pop1").style.display = "block";
+        });
+      function x4() {
+        document.querySelector(".srch_pop1").style.display = "none";
+      }
+    </script>
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <script src="/path/to/flickity.pkgd.min.js"></script>
+  </body>
+</html>
+

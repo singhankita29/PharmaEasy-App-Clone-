@@ -1,0 +1,115 @@
+
+#offercontainer {
+    width: 70%;
+    margin: auto;
+    margin-top: 20px;
+  }
+  #home{
+      display: flex; 
+  }
+  #home>a,p a{
+      text-decoration: white;
+      color: inherit;
+  }
+ 
+  #home> span{
+      margin-left: 1%;
+      margin-right: 1%;
+  }
+  #he1 {
+    color: rgb(73, 72, 72);
+    margin-left: 4px;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  #button {
+    display: flex;
+    margin-left: 5px;
+    
+  }
+  #button > .a1 a{
+    border: 2px solid rgb(247, 247, 247);
+    margin-right: 15px;
+    border-radius: 25px;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: white;
+    color: inherit;
+  }
+  #hcare>.a1 a{
+    text-decoration: white;
+    color: inherit;
+  }
+
+  #button>.a1:hover{
+      background-color: teal;
+  }
+
+  #blocks {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .b11 {
+    border: 1px solid rgb(247, 247, 247);
+    display: flex;
+    height: 150px;
+    flex-direction: row;
+    flex: 5;
+  }
+  
+  .xmas> .b11 > .off > h4 {
+    border: 2px solid rgb(255, 255, 255);
+    width: 90%;
+    margin-left: 25px;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgb(46, 45, 45);
+    font-weight: bold;
+  }
+  .xmas > .b11 > .off > h5 {
+    border: 1px solid rgb(247, 247, 247);
+    width: 90%;
+    margin-top: -25px;
+    margin-left: 25px;
+  }
+  .b11 > img {
+    width: 15%;
+    margin-top: 25px;
+    height: 60px;
+  
+    flex: 1;
+  }
+  .xmas > .b11 > .off > h6 {
+    color: red;
+    margin-left: -42px;
+  }
+  .xmas{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 100px;
+    color: rgb(79, 88, 94);
+    width: 47%;
+    margin: 2% 1.5%;
+  
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 8%);
+  }
+  .code {
+    width: 95%;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    padding-left: 10px;
+    border-top: 1px dotted black;
+  }
+  .code > p {
+    margin-left: 17%;
+    color: teal;
+    font-weight: 700;
+  }
+  .code > p {
+    color: rgb(79, 88, 94);
+    font-weight: 500;
+    width: 100%;
+  }
+  

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart</title>
+    <link rel="stylesheet" href="./Styles/navbar.css"/>
+    <link rel="stylesheet" href="./Styles/cart.css"/>
+    <script
+    src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+    
+
+  </head>
+  <body>
+
+  <!-- <----------NAVBAR START------------> 
+<div id="navbar">
+      <!-- <---------- UPPERPART OF NAVBAR START------------> 
+  <div id="upper_nav">
+      <div id="logo">
+          <img src="https://assets.pharmeasy.in/web-assets/dist/fca22bc9.png" alt=""/> 
+      </div>
+        
+      
+      <div id="pinCode">
+       <select>
+           <option>Select Pincode
+               <span style="background-color:#8897a2"><i class="fa-solid fa-caret-down"></i></span>
+           </option>
+       </select>
+      </div>
+      
+      <div id="searchBar">
+           <input  type="text" placeholder="Search Medicines/Healthcare Products @18% off"
+          class="Search"
+          id="innerbar"/>
+           <div class="iconse">
+            <i class="fa-solid fa-magnifying-glass fa-xl"></i>
+         </div>
+
+      </div>
+
+  </div>
+ 
+   <!-- LOWER NAVBAR START -->
+  <div id="lowerNav">
+      <div class="leftnav">
+          <div class="let">
+              <a href="ordermedicines.html">Order Medicines</a> 
+              </div>
+          <div class="let">
+              <a href="hcareProduct.html">Healthcare Products</a> 
+          </div>
+          <div class="let">
+              <a href="diagnose.html">Lab Tests</a>
+          </div>
+          <div class="let">RTPCR</div> 
+      </div>
+          
+      <div class="rightnav">
+          <div class="symbol1">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/275c07e1.svg" alt=""/>
+              <h4><a href="offer.html">Offers</a></h4>
+          </div>
+          <div class="symbol1">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/5eb42971.svg" alt=""/>
+              <h4><a href="login.html">User</a></h4>
+          </div>
+          <div class="symbol1">
+              <img src="https://assets.pharmeasy.in/web-assets/dist/21b0b5ba.svg" alt=""/>
+              <h4><a href="cart.html">Cart</a></h4>
+          </div>
+      </div>
+
+  </div>
+</div>   
+
+    <div id="parent">
+        <div id="product"></div>
+        
+
+
+         
+    <div id="rightPart">
+        <!-- <h2>Apply Promo Code</h2> -->
+
+        <!-- copy myn -->
+        <div class="couponLabel">
+          Apply Coupons
+          <input type="text" id="coupon" placeholder="Apply Coupons" value="" />
+          <input type="submit" id="promo" value="Apply" />
+          
+        </div>
+        <!-- paaste myn -->
+
+        <div id=" dat">
+          <h3 id="discount">Discount INR 0.00</h3>
+          <h3 id="sub">
+            Sub Total After
+            <h5>Discounts</h5>
+          </h3>
+          <h3 id="total">Your Total :- INR 0.00</h3>
+        </div>
+        <button id="pay" onclick="window.location.href='payment.html'">
+          CheckOut
+        </button>
+      </div>
+
+
+    </div>
+    
+
+    
+  </body>
+</html>
+
+<script src="./Script/cart.js"></script>
